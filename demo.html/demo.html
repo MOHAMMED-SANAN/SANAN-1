@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <script>
+let num =433;
+function oddoreven(num){
+    let numstr=num.toString();
+    let sum=0;
+    for(let i=0; i<numstr.length;i++){
+        sum+=parseInt(numstr[i])
+    }
+    if (sum%2==0){
+        console.log("even")
+        return "even";
+    }else{
+        console.log("odd")
+        return "odd";
+
+    }
+}
+oddoreven(43);
+   </script>
+</body>
+</html>
